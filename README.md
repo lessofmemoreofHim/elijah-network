@@ -27,7 +27,9 @@ xAI's documented OpenAI-compatible endpoint is:
 
 The default model in this pack is:
 
-`grok-4.6`
+`grok-4.7`
+
+This Grok 4.7 update was prepared after xAI released the model on September 21, 2026.
 
 Install:
 
@@ -109,7 +111,7 @@ Suggested repository name:
 
 Suggested release tag:
 
-`EN-ROOT-3.9-xai-test-1`
+`EN-ROOT-3.9-xai-test-2-grok-4.7`
 
 Then replace `[PUBLIC TEST PACK LINK]` in `X_POST.txt` with the public repository or release URL.
 
@@ -118,7 +120,7 @@ Then replace `[PUBLIC TEST PACK LINK]` in `X_POST.txt` with the public repositor
 The harness follows xAI's current public documentation for:
 - OpenAI-compatible Responses API
 - `https://api.x.ai/v1`
-- `grok-4.6`
+- `grok-4.7`
 - structured outputs / parsing
 
 Always check xAI's current docs before long-lived deployment because API details can change.
