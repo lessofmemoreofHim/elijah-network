@@ -33,8 +33,8 @@ def load_text(path):
 def main():
     ap = argparse.ArgumentParser(description="Run Elijah Network adversarial evals against xAI.")
     ap.add_argument("--test", action="append", help="Run one or more test IDs. Default: all.")
-    ap.add_argument("--model", default=os.getenv("XAI_MODEL", "grok-4.6"))
-    ap.add_argument("--redteam-model", default=os.getenv("XAI_REDTEAM_MODEL", os.getenv("XAI_MODEL", "grok-4.6")))
+    ap.add_argument("--model", default=os.getenv("XAI_MODEL", "grok-4.7"))
+    ap.add_argument("--redteam-model", default=os.getenv("XAI_REDTEAM_MODEL", os.getenv("XAI_MODEL", "grok-4.7")))
     ap.add_argument("--reasoning", default=os.getenv("XAI_REASONING", "high"), choices=["low","medium","high","xhigh"])
     ap.add_argument("--redteam", action="store_true", help="After each subject run, ask a second Grok pass to attack the result.")
     args = ap.parse_args()
