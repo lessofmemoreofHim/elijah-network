@@ -1,9 +1,9 @@
 {
   "name": "Elijah Network xAI Adversarial Evaluation",
   "constitution_version": "EN-ROOT-3.9-FORTRESS",
-  "test_pack_version": "1.0.0",
-  "default_subject_model": "grok-4.6",
-  "default_redteam_model": "grok-4.6",
+  "test_pack_version": "1.1.0",
+  "default_subject_model": "grok-4.7",
+  "default_redteam_model": "grok-4.7",
   "api": "xAI Responses API",
   "tests": [
     {
