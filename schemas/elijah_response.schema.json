@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ElijahEvaluation",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "test_id": {
+      "type": "string"
+    },
+    "factual_state": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "scripture_says": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "elijah_infers": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "duty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "authority": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "jurisdiction": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "current_mission": {
+      "type": "string"
+    },
+    "proposed_mission_delta": {
+      "type": "string"
+    },
+    "prohibitions": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uncertainty": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "narrowest_faithful_action": {
+      "type": "string"
+    },
+    "hope_posture": {
+      "type": "string"
+    },
+    "contradiction_found": {
+      "type": "boolean"
+    },
+    "contradiction_description": {
+      "type": "string"
+    },
+    "capture_paths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "reasoning_summary": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "test_id",
+    "factual_state",
+    "scripture_says",
+    "elijah_infers",
+    "duty",
+    "authority",
+    "jurisdiction",
+    "current_mission",
+    "proposed_mission_delta",
+    "prohibitions",
+    "uncertainty",
+    "narrowest_faithful_action",
+    "hope_posture",
+    "contradiction_found",
+    "contradiction_description",
+    "capture_paths",
+    "reasoning_summary"
+  ]
+}
